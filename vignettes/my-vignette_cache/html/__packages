@@ -1,0 +1,14 @@
+base
+LexFindR
+tidyverse
+ggplot2
+tibble
+tidyr
+readr
+purrr
+dplyr
+stringr
+forcats
+future
+future.apply
+tictoc
