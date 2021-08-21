@@ -1,7 +1,7 @@
 Package: LexFindR
 Title: Find Related Items and Lexical Dimensions in a Lexicon
-Version: 1.0.0
-Date: 2021-07-17
+Version: 1.0.1
+Date: 2021-08-20
 Authors@R: 
     c(person(given = "ZhaoBin",
            family = "Li",
@@ -24,10 +24,7 @@ Description: Implements code to identify lexical competitors in a given list
   code makes use of multiple CPU cores and vectorization when possible, making
   it extremely fast and able to handle large lexicons. Additionally, the package
   contains documentation for users to easily write new functions, allowing
-  researchers to examine other relationships within a lexicon. Li, Z., Crinnion,
-  A. M., & Magnuson, J. S. (2021) "LexFindR: A fast, simple, and extensible R
-  package for finding similar words in a lexicon."
-  <https://magnuson.psy.uconn.edu/wp-content/uploads/sites/1140/2021/02/lexfindr-brm-rev-2021-02-25.pdf>.
+  researchers to examine other relationships within a lexicon. <https://psyarxiv.com/8dyru/>.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
@@ -38,10 +35,10 @@ Depends: R (>= 3.5.0)
 URL: https://github.com/maglab-uconn/LexFindR
 BugReports: https://github.com/maglab-uconn/LexFindR/issues
 NeedsCompilation: no
-Packaged: 2021-08-08 21:50:53 UTC; zhaobinli
+Packaged: 2021-08-20 21:29:29 UTC; zhaobinli
 Author: ZhaoBin Li [aut, cre],
   Anne Marie Crinnion [aut],
   James S. Magnuson [aut, cph]
 Maintainer: ZhaoBin Li <bzilplj@gmail.com>
 Repository: CRAN
-Date/Publication: 2021-08-09 07:50:05 UTC
+Date/Publication: 2021-08-21 04:10:02 UTC

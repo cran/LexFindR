@@ -4,9 +4,6 @@
 # LexFindR
 
 <!-- badges: start -->
-
-[![Travis build
-status](https://travis-ci.com/maglab-uconn/LexFindR.svg?branch=master)](https://travis-ci.com/maglab-uconn/LexFindR)
 <!-- badges: end -->
 
 This package allows language researchers to generate lexical competitors
@@ -205,7 +202,4 @@ cohorts above, the frequencies, etc.
 ## Further use and information
 
 For much more detailed discussion of the package and its features, refer
-to: Li, Z., Crinnion, A. M., & Magnuson, J. S. (accepted). LexFindR: A
-fast, simple, and extensible R package for finding similar words in a
-lexicon. Behavior Research Methods.
-<https://magnuson.psy.uconn.edu/wp-content/uploads/sites/1140/2021/02/lexfindr-brm-rev-2021-02-25.pdf>
+to <https://psyarxiv.com/8dyru/>
