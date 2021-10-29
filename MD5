@@ -1,4 +1,4 @@
-d8ed1888442c763f5fdad8f6324f210a *DESCRIPTION
+ae5b30bf0d5ff3d67c35c851b809e0b0 *DESCRIPTION
 f1b48b6dae9e42e82b2e164790c736ec *NAMESPACE
 b6c9d05fafdb7c38f8979a2e7bffcfee *NEWS.md
 c478befcf075427adc14a6c4763db390 *R/LexFindR.R
@@ -6,13 +6,14 @@ c478befcf075427adc14a6c4763db390 *R/LexFindR.R
 86f468ab0b2b16890c66e9e17fab49dc *R/data.R
 5dde916dee3fea1e8d540a6627f58433 *R/extensions.R
 d87e7f182a7893138613bfd09e80153c *R/helpers.R
-2bb394c2d3f1fea471bcd05d6503ea06 *README.md
+da8711f6b9a34df0ffe37cbd803c0d9d *README.md
 bd6ee900e783d803704c4391ab50ee31 *build/vignette.rds
 e11531592672a5ae6fadbfdaa77d6ea5 *data/lemmalex.rda
 f71d3591e791bfb17a3cd1ccc09a7322 *data/slex.rda
+3034b65c1ff602b72c1dd07e15083a2a *inst/CITATION
 7501dad09211e507ea5375b003082070 *inst/doc/my-vignette.R
 85394d615618f3e1e350cf650f7e9711 *inst/doc/my-vignette.Rmd
-4e364b5b285b523a96e9dc5f71185319 *inst/doc/my-vignette.html
+80eb98319a65a8ce647d952999495552 *inst/doc/my-vignette.html
 befa1c9aca306fc252eaddf4450a8b7e *man/LexFindR.Rd
 409407ae9ac39663233b7f4515a4accb *man/add_escape.Rd
 4821364b69f4297d71c4a76848a836a7 *man/check_input.Rd
@@ -42,6 +43,6 @@ baa450d254da9cd06b7bfd0f512e8b44 *tests/testthat/test-edges.R
 52d1c3358bca6c47b94ae6f5d44b1f12 *tests/testthat/test-variations.R
 85394d615618f3e1e350cf650f7e9711 *vignettes/my-vignette.Rmd
 0e04ec3c1e938cc14c136c9a15ddfd35 *vignettes/my-vignette_cache/html/__packages
-4d159a93765702c418f2a3aa79ebf5db *vignettes/my-vignette_cache/html/parallelize_f8b10b8b3be82e281b148b3e2a0f322a.RData
-a60844f6a2e300bb9db2af5785d4713c *vignettes/my-vignette_cache/html/parallelize_f8b10b8b3be82e281b148b3e2a0f322a.rdb
-0fc4ae5d8d805ae31ca3123b7574fcb5 *vignettes/my-vignette_cache/html/parallelize_f8b10b8b3be82e281b148b3e2a0f322a.rdx
+8b1efe217b8c3f05ca6fcbf6fb52d74d *vignettes/my-vignette_cache/html/parallelize_ea26456423a2aa2d0ecec38fc1cb2f26.RData
+a60844f6a2e300bb9db2af5785d4713c *vignettes/my-vignette_cache/html/parallelize_ea26456423a2aa2d0ecec38fc1cb2f26.rdb
+0fc4ae5d8d805ae31ca3123b7574fcb5 *vignettes/my-vignette_cache/html/parallelize_ea26456423a2aa2d0ecec38fc1cb2f26.rdx
