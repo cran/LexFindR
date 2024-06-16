@@ -1,4 +1,3 @@
-base
 LexFindR
 tidyverse
 ggplot2
@@ -9,6 +8,7 @@ purrr
 dplyr
 stringr
 forcats
+lubridate
 future
 future.apply
 tictoc

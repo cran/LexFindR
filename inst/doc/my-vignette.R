@@ -1,4 +1,4 @@
-## ---- include = FALSE---------------------------------------------------------
+## ----include = FALSE----------------------------------------------------------
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
@@ -47,7 +47,7 @@ get_fw(lexicon_freq)
 # 
 get_fwcp(target_freq, lexicon_freq)
 
-## ---- comment-on-CMU----------------------------------------------------------
+## ----comment-on-CMU-----------------------------------------------------------
 # By default, CMU has numbers that indicate stress patterns
 # 
 # If you do not strip those out, instances of the same vowel
@@ -75,7 +75,7 @@ get_cohorts(target, lexicon, form = TRUE)
 get_neighbors(target, lexicon, form = TRUE)
 
 
-## ---- slex-cohort-example-----------------------------------------------------
+## ----slex-cohort-example------------------------------------------------------
 library(tidyverse)
 glimpse(slex)
 
@@ -131,7 +131,7 @@ slex_rhymes <- slex_rhymes %>%
 
 glimpse(slex_rhymes)
 
-## ---- parallelize, cache = TRUE-----------------------------------------------
+## ----parallelize, cache = TRUE------------------------------------------------
 library(future.apply)
 library(tictoc)
 

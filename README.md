@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/maglab-uconn/LexFindR/workflows/R-CMD-check/badge.svg)](https://github.com/maglab-uconn/LexFindR/actions)
+[![R-CMD-check](https://github.com/maglab-uconn/LexFindR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/maglab-uconn/LexFindR/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 This package allows language researchers to generate lexical competitors
@@ -36,14 +36,23 @@ lexicon <- c("AA R K", "AA R T", "B AA B")
 cohort <- get_cohorts(target, lexicon)
 cohort
 #> [1] 1 2
+```
+
+``` r
 
 # To get string rather than the index
 lexicon[cohort]
 #> [1] "AA R K" "AA R T"
+```
+
+``` r
 
 # Get count
 length(cohort)
 #> [1] 2
+```
+
+``` r
 
 # Get the log Frequency Weighted Competitor Probabilities
 target_freq <- 50
@@ -94,6 +103,9 @@ show the orthographic labels:
 get_rhymes("AA R K", lemmalex$Pronunciation, form = TRUE)
 #> [1] "AA R K"    "B AA R K"  "D AA R K"  "HH AA R K" "L AA R K"  "M AA R K" 
 #> [7] "P AA R K"  "SH AA R K"
+```
+
+``` r
 
 lemmalex[get_rhymes("AA R K", lemmalex$Pronunciation),]$Item
 #> [1] "arc"   "bark"  "dark"  "hark"  "lark"  "mark"  "park"  "shark"
@@ -110,6 +122,9 @@ lexicon <- c("AA1 R K", "AA2 R T", "B AA3 B")
 
 get_cohorts(target, lexicon)
 #> integer(0)
+```
+
+``` r
 
 # Strip lexical stress using regex
 target <- gsub("\\d", "", target)
@@ -117,8 +132,14 @@ lexicon <- gsub("\\d", "", lexicon)
 
 print(target)
 #> [1] "AA R K"
+```
+
+``` r
 print(lexicon)
 #> [1] "AA R K" "AA R T" "B AA B"
+```
+
+``` r
 
 get_cohorts(target, lexicon)
 #> [1] 1 2
@@ -131,6 +152,7 @@ Often, however, we will want to find competitors for each word in our
 lexicon. Using the *lapply* function, this is possible:
 
 ``` r
+
 # define the list of target words to compute cohorts for
 target_df <- slex
 
@@ -171,9 +193,10 @@ target_df$cohort_count <- lengths(target_df$cohort_str)
 
 In order to get faster run times, we can make use of the package
 *future* to engage multiple cores. Using the same example from above
-with a larger lexicon, we replace *lapply* with *future\_lapply*:
+with a larger lexicon, we replace *lapply* with *future_lapply*:
 
 ``` r
+
 library(future.apply)
 
 # get the total number of cores
@@ -204,9 +227,9 @@ cohorts above, the frequencies, etc.
 ## Further use and information
 
 For much more detailed discussion of the package and its features, refer
-to LexFindR manusript. Preprint: <https://psyarxiv.com/8dyru/>. Open
-access:
-<https://link.springer.com/epdf/10.3758/s13428-021-01667-6?sharing_token=9WlO9soCc9y0uSuwWSUYfJAH0g46feNdnc402WrhzyrdKcK8uzZx_hDEtgbYzn3gvxdG5Cuj0j0cC4lVMFBqYCGTQmE2blN2Gwo74LJ8ro1pEOAYDRFy6Lhf1nc719vD-zU7GDvKOQxDAwPbrisvPBeXSIu0NkqXF7Jx3IuUwIs%3D>.
+to LexFindR manusript. Preprint:
+<https://osf.io/preprints/psyarxiv/8dyru/>. Open access:
+<https://doi.org/10.3758/s13428-021-01667-6>.
 
 ## Citation
 

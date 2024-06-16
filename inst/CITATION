@@ -1,11 +1,10 @@
-citHeader("To cite LexFindR in publications use:")
-
-citEntry(entry = "Article",
+bibentry(
+  bibtype  = "Article",
   title="{LexFindR}: A Fast, simple, and extensible {R} package for finding similar words in a lexicon",
   author=c(person(given = "ZhaoBin",
            family = "Li",
            role = c("aut", "cre"),
-           email = "bzilplj@gmail.com"),
+           email = "li_zhaobin@icloud.com"),
       person(given = "Anne Marie",
              family = "Crinnion",
              role = c("aut"),
@@ -18,8 +17,5 @@ citEntry(entry = "Article",
   pages="1--15",
   year="2021",
   publisher="Springer",
-  url="https://doi.org/10.3758/s13428-021-01667-6",
-
-  textVersion  =
-  "Li, Z., Crinnion, A.M. & Magnuson, J.S. (2021). LexFindR: A fast, simple, and extensible R package for finding similar words in a lexicon. Behavior Research Methods, 1-15. https://doi.org/10.3758/s13428-021-01667-6"
+  doi="10.3758/s13428-021-01667-6"
 )

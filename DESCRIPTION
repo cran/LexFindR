@@ -1,12 +1,12 @@
 Package: LexFindR
 Title: Find Related Items and Lexical Dimensions in a Lexicon
-Version: 1.0.2
-Date: 2021-10-23
+Version: 1.1.0
+Date: 2024-6-15
 Authors@R: 
     c(person(given = "ZhaoBin",
            family = "Li",
            role = c("aut", "cre"),
-           email = "bzilplj@gmail.com"),
+           email = "li_zhaobin@icloud.com"),
       person(given = "Anne Marie", 
              family = "Crinnion",
              role = c("aut"),
@@ -25,23 +25,23 @@ Description: Implements code to identify lexical competitors in a given list
   it extremely fast and able to handle large lexicons. Additionally, the package
   contains documentation for users to easily write new functions, allowing
   researchers to examine other relationships within a lexicon. 
-  Preprint: <https://psyarxiv.com/8dyru/>. Open access: <https://link.springer.com/epdf/10.3758/s13428-021-01667-6?sharing_token=9WlO9soCc9y0uSuwWSUYfJAH0g46feNdnc402WrhzyrdKcK8uzZx_hDEtgbYzn3gvxdG5Cuj0j0cC4lVMFBqYCGTQmE2blN2Gwo74LJ8ro1pEOAYDRFy6Lhf1nc719vD-zU7GDvKOQxDAwPbrisvPBeXSIu0NkqXF7Jx3IuUwIs%3D>. 
+  Preprint: <https://osf.io/preprints/psyarxiv/8dyru/>. Open access: <doi:10.3758/s13428-021-01667-6>. 
   Citation: Li, Z., Crinnion, A.M. & Magnuson, J.S. (2021). 
   <doi:10.3758/s13428-021-01667-6>.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.1
 Suggests: tidyverse, knitr, rmarkdown, testthat, future.apply, tictoc
 VignetteBuilder: knitr
 Depends: R (>= 3.5.0)
 URL: https://github.com/maglab-uconn/LexFindR
 BugReports: https://github.com/maglab-uconn/LexFindR/issues
 NeedsCompilation: no
-Packaged: 2021-10-28 13:40:11 UTC; zhaobinli
+Packaged: 2024-06-16 13:56:53 UTC; zbli
 Author: ZhaoBin Li [aut, cre],
   Anne Marie Crinnion [aut],
   James S. Magnuson [aut, cph]
-Maintainer: ZhaoBin Li <bzilplj@gmail.com>
+Maintainer: ZhaoBin Li <li_zhaobin@icloud.com>
 Repository: CRAN
-Date/Publication: 2021-10-29 06:30:08 UTC
+Date/Publication: 2024-06-16 14:40:01 UTC

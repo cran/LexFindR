@@ -2,6 +2,10 @@
 
 Released to CRAN
 
-## LexFindR 1.0.1
+## LexFindR 1.1.0
 
-Updated reference to psyarxiv
+Fixed CRAN error
+
+
+
+
